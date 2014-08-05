@@ -97,3 +97,8 @@ fi
 #if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 #    . /etc/bash_completion
 #fi
+
+# Personal
+PS1='\[\e[1;31m\][\[\e[34m\]\w\[\e[31m\]]\[\e[00m\]\n'
+
+export EDITOR=vim
