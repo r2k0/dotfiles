@@ -18,6 +18,9 @@ set nohidden			  " remove the buffer
 set showcmd				  " shows what you are typing as a command
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 
+""" Markdown
+au BufRead *.md setlocal spell
+au BufRead *.markdown setlocal spell
 
 """ backup directories, you need to create them first
 set backup
